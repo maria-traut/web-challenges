@@ -242,8 +242,25 @@ CSS based on conditions such as viewport width, etc. */
 /* --- */
 /* Replace this comment with your media query. */
 /* --- */
+@media (min-width: 900px) {
+  .card-section {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
 
 /* Media Query Desktop */
 /* --- */
 /* Replace this comment with your media query. */
 /* --- */
+
+@media (mind-width: 1200px) {
+  .--forest {
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 350px;
+  }
+  .intro-text .--mountain .--river .--ocean .--desert {
+    flex: 0 0 50%;
+  }
+}
